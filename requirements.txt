@@ -1,6 +1,10 @@
-torch
-gym
+gym==0.26.2
 numpy
 pandas
 matplotlib
-stable-baselines3[extra]
+torch
+stable-baselines3[extra]   # optional, for PPO/DQN implementations (Colab install)
+tensorboard
+scipy
+tqdm
+seaborn
